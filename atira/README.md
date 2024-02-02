@@ -18,7 +18,19 @@ Contoh cara penggunaan di UNIX-like OS dengan menggunakan `python3`
 python3 combination.py 19 1E6 1000
 ```
 
-dengan tujuan *running* asteroid Atira nomor urut **19** (di `asteroids.py`), waktu integrasi `1E6` tahun dan *step* penampilan/penyimpanan hasil sebanyak `1000` titik.
+dengan tujuan *running* asteroid Atira nomor urut **19** (di `asteroids.py`), waktu integrasi `1E6` tahun dan *step* penampilan/penyimpanan hasil sebanyak `1000` titik. Cara lain yang identik (jika moda file `755` diberlakukan ke `combination.py` atau `combination0.py`:
+
+```bash
+./combination.py 19 1E6 1000
+```
+
+Khusus untuk penggunaan `combination0.py` (*submit job* agar dapat ditinggalkan *logout* dari workstation):
+
+```bash
+./combination0.py 19 1E6 1000 > /dev/null 2>&1 &
+```
+
+(dan setelah ini aman dapat logout).
 
 ## Tinjauan Post-Newtonian
 
