@@ -1,0 +1,76 @@
+***************************************************************
+* REBOUND simulation of asteroid (w/o Post-Newtonian effects) *
+*                                                             *
+* (c) P2MI 2023 project: MIH & ES                             *
+***************************************************************
+
+*** LOG SIMULATION OF 2020 AV2 WITH 1000 POINTS, AND 100000.0 YR INTEGRATION TIME ***
+*** RESTART FOR ADOPTING SOME CLONING VALUES OF 2020 AV2 ***
+*** Adding particle #10 as clone #243/243 of 2020 AV2 ***
+*** Using combination (-1, -1, -1, -1, -1) for its 5-sigma's***
+*** Original values of a [au], e, inc [rad], Omega [rad], and omega [rad] as of 2024-01-20 04:25:51.040415 are:
+a = 5.441291260E-01, e = 1.830219190E-01, i = 2.765344458E-01, Omega = 1.126888535E-01, and omega = 3.209593184E+00
+*** Cloning values become:
+a = 5.441290740E-01, e = 1.830210849E-01, i = 2.765334076E-01, Omega = 1.126848033E-01, and omega = 3.209587893E+00
+*** CONTINUING SIMULATION 243/243, combination (-1, -1, -1, -1, -1), starting from 2024-01-20 04:25:51.040479...
+Columns name in output file: 2020AV2_243_N.csv
+ 1. t [yr]
+ 2. dt [yr]
+ 3. x [au]
+ 4. y [au]
+ 5. z [au]
+ 6. dcSun [au] (to center of Sun)
+ 7. dsSun [au] (to surface of Sun)
+ 8. Rsun (au)
+ 9. dcMer [au] (to center of Mercury)
+10. dsMer [au] (to surface of Mercury)
+11. tRhMer (3 x Rhill of Mercury) [au]
+12. Rmer [au]
+13. dcVen [au] (to center of Venus)
+14. dsVen [au] (to surface of Venus)
+15. tRhVen (3 x Rhill of Venus) [au]
+16. Rven [au]
+17. dcEar [au] (to center of Earth)
+18. dsEar [au] (to surface of Earth)
+19. tRhEar (3 x Rhill of Earth) [au]
+20. Rear [au]
+21. dcMar [au] (to center of Mars)
+22. dsMar [au] (to surface of Mars)
+23. tRhMar (3 x Rhill of Mars) [au]
+24. Rmar [au]
+25. dcJup [au] (to center of Jupiter)
+26. dsJup [au] (to surface of Jupiter)
+27. tRhJup (3 x Rhill of Jupiter) [au]
+28. Rjup [au]
+29. dcSat [au] (to center of Saturn)
+30. dsSat [au] (to surface of Saturn)
+31. tRhSat (3 x Rhill of Saturn) [au]
+32. Rsat [au]
+33. dcUra [au] (to center of Uranus)
+34. dsUra [au] (to surface of Uranus)
+35. tRhUra (3 x Rhill of Uranus) [au]
+36. Rura [au]
+37. dcNep [au] (to center of Neptune)
+38. dsNep [au] (to surface of Neptune)
+39. tRhNep (3 x Rhill of Neptune) [au]
+40. Rnep [au]
+41. a [au]
+42. perihel, or a(1 - e) [au]
+43. e
+44. Porb [yr]
+45. KL (Kozai-Lidov parameter)
+46. inc [deg]
+47. Omg, or Omega [deg]
+48. omg, or omega [deg]
+49. f (true anomaly) [deg]
+50. E (energy, w/o unit)
+51. J (angular momentum, w/o unit)
+52. enc (encounter label, if any)
+53. pln (name of encountered planet [and collision label], if any)
+*** Simulation #243/243 w/ combination (-1, -1, -1, -1, -1) done. Finish at 2024-01-20 04:35:36.275052...
+NOTE: *** Close encounter index ***
+Sun    : []
+Mercury: []
+Venus  : []
+Earth  : []
+Mars   : []
