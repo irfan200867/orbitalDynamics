@@ -27,10 +27,17 @@ dengan tujuan *running* asteroid Atira nomor urut **19** (di `asteroids.py`), wa
 Khusus untuk penggunaan `combination0.py` (*submit job* agar dapat ditinggalkan *logout* dari workstation):
 
 ```bash
+python3 combination0.py 19 1E6 1000 > /dev/null 2>&1 &
+```
+
+atau
+
+```bash
 ./combination0.py 19 1E6 1000 > /dev/null 2>&1 &
 ```
 
 (dan setelah ini aman dapat logout).
+
 
 ## Tinjauan Post-Newtonian
 
